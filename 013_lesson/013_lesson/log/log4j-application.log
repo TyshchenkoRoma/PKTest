@@ -1,0 +1,662 @@
+2019-06-17 09:16:53 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-06-17 09:16:53 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-06-17 09:16:54 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-06-17 09:16:54 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-06-17 09:16:54 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-06-17 09:16:54 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-06-17 09:16:54 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-06-17 09:16:54 DEBUG DefaultClientConnection:268 - Sending request: GET /v2/user/i2i HTTP/1.1
+2019-06-17 09:16:54 DEBUG wire:72 -  >> "GET /v2/user/i2i HTTP/1.1[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  >> "Accept: application/json, application/javascript, text/javascript[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  >> "[\r][\n]"
+2019-06-17 09:16:54 DEBUG headers:272 - >> GET /v2/user/i2i HTTP/1.1
+2019-06-17 09:16:54 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-06-17 09:16:54 DEBUG headers:275 - >> Accept: application/json, application/javascript, text/javascript
+2019-06-17 09:16:54 DEBUG headers:275 - >> Content-Length: 0
+2019-06-17 09:16:54 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-06-17 09:16:54 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-06-17 09:16:54 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-06-17 09:16:54 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-06-17 09:16:54 DEBUG wire:72 -  << "HTTP/1.1 404 Not Found[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  << "Date: Mon, 17 Jun 2019 06:16:54 GMT[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-06-17 09:16:54 DEBUG wire:72 -  << "[\r][\n]"
+2019-06-17 09:16:54 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 404 Not Found
+2019-06-17 09:16:54 DEBUG headers:256 - << HTTP/1.1 404 Not Found
+2019-06-17 09:16:54 DEBUG headers:259 - << Date: Mon, 17 Jun 2019 06:16:54 GMT
+2019-06-17 09:16:54 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-06-17 09:16:54 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-06-17 09:16:54 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-06-17 09:16:54 DEBUG headers:259 - << Content-Type: application/json
+2019-06-17 09:16:54 DEBUG headers:259 - << Connection: close
+2019-06-17 09:16:54 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-06-17 09:16:54 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-06-17 09:16:54 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-06-17 09:16:54 DEBUG wire:86 -  << "{"code":1,"type":"error","message":"User not found"}"
+2019-06-17 09:16:54 DEBUG BasicClientConnectionManager:198 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@2a640157
+2019-06-17 09:16:54 DEBUG DefaultClientConnection:160 - Connection 0.0.0.0:63553<->23.22.16.221:443 shut down
+2019-06-17 09:16:54 INFO  Log:61 - com.jayway.restassured.internal.RestAssuredResponseImpl@112f364d
+2019-08-08 18:51:46 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-08-08 18:51:47 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-08-08 18:51:47 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-08-08 18:51:47 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-08-08 18:51:47 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-08-08 18:51:47 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-08-08 18:51:47 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-08-08 18:51:47 DEBUG DefaultClientConnection:268 - Sending request: POST /v2/user HTTP/1.1
+2019-08-08 18:51:47 DEBUG wire:72 -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  >> "Content-Length: 164[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  >> "[\r][\n]"
+2019-08-08 18:51:47 DEBUG headers:272 - >> POST /v2/user HTTP/1.1
+2019-08-08 18:51:47 DEBUG headers:275 - >> Accept: */*
+2019-08-08 18:51:47 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-08-08 18:51:47 DEBUG headers:275 - >> Content-Length: 164
+2019-08-08 18:51:47 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-08-08 18:51:47 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-08-08 18:51:47 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-08-08 18:51:47 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-08-08 18:51:47 DEBUG wire:86 -  >> "{"id":1,"username":"i2i","firstName":"Ivan","lastName":"Ivanov","email":"testUser1@gmail.com","password":"TopSecretPassword","phone":"+380694445522","userStatus":1}"
+2019-08-08 18:51:47 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  << "Date: Thu, 08 Aug 2019 15:51:47 GMT[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-08-08 18:51:47 DEBUG wire:72 -  << "[\r][\n]"
+2019-08-08 18:51:47 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 200 OK
+2019-08-08 18:51:47 DEBUG headers:256 - << HTTP/1.1 200 OK
+2019-08-08 18:51:47 DEBUG headers:259 - << Date: Thu, 08 Aug 2019 15:51:47 GMT
+2019-08-08 18:51:47 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-08-08 18:51:47 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-08-08 18:51:47 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-08-08 18:51:47 DEBUG headers:259 - << Content-Type: application/json
+2019-08-08 18:51:47 DEBUG headers:259 - << Connection: close
+2019-08-08 18:51:47 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-08-08 18:51:47 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-08-08 18:51:47 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-08 18:51:47 DEBUG BasicClientConnectionManager:198 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5b970f7
+2019-08-08 18:51:47 DEBUG DefaultClientConnection:160 - Connection 0.0.0.0:52358<->23.22.16.221:443 shut down
+2019-08-08 18:51:47 INFO  Log:36 - 
+2019-08-08 18:52:23 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-08-08 18:52:23 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-08-08 18:52:23 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-08-08 18:52:23 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-08-08 18:52:23 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-08-08 18:52:23 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-08-08 18:52:23 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-08-08 18:52:23 DEBUG DefaultClientConnection:268 - Sending request: POST /v2/user HTTP/1.1
+2019-08-08 18:52:23 DEBUG wire:72 -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  >> "Content-Length: 164[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  >> "[\r][\n]"
+2019-08-08 18:52:23 DEBUG headers:272 - >> POST /v2/user HTTP/1.1
+2019-08-08 18:52:23 DEBUG headers:275 - >> Accept: */*
+2019-08-08 18:52:23 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-08-08 18:52:23 DEBUG headers:275 - >> Content-Length: 164
+2019-08-08 18:52:23 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-08-08 18:52:23 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-08-08 18:52:23 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-08-08 18:52:23 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-08-08 18:52:23 DEBUG wire:86 -  >> "{"id":1,"username":"i2i","firstName":"Ivan","lastName":"Ivanov","email":"testUser1@gmail.com","password":"TopSecretPassword","phone":"+380694445522","userStatus":1}"
+2019-08-08 18:52:23 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  << "Date: Thu, 08 Aug 2019 15:52:23 GMT[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-08-08 18:52:23 DEBUG wire:72 -  << "[\r][\n]"
+2019-08-08 18:52:23 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 200 OK
+2019-08-08 18:52:23 DEBUG headers:256 - << HTTP/1.1 200 OK
+2019-08-08 18:52:23 DEBUG headers:259 - << Date: Thu, 08 Aug 2019 15:52:23 GMT
+2019-08-08 18:52:23 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-08-08 18:52:23 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-08-08 18:52:23 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-08-08 18:52:23 DEBUG headers:259 - << Content-Type: application/json
+2019-08-08 18:52:23 DEBUG headers:259 - << Connection: close
+2019-08-08 18:52:23 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-08-08 18:52:23 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-08-08 18:52:23 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-08 18:52:23 DEBUG BasicClientConnectionManager:198 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5b970f7
+2019-08-08 18:52:23 DEBUG DefaultClientConnection:160 - Connection 0.0.0.0:52380<->23.22.16.221:443 shut down
+2019-08-08 18:52:23 INFO  Log:36 - 
+2019-08-08 18:53:56 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-08-08 18:53:57 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-08-08 18:53:57 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-08-08 18:53:57 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-08-08 18:53:57 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-08-08 18:53:57 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-08-08 18:53:57 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-08-08 18:53:57 DEBUG DefaultClientConnection:268 - Sending request: POST /v2/user HTTP/1.1
+2019-08-08 18:53:57 DEBUG wire:72 -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  >> "Content-Length: 164[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  >> "[\r][\n]"
+2019-08-08 18:53:57 DEBUG headers:272 - >> POST /v2/user HTTP/1.1
+2019-08-08 18:53:57 DEBUG headers:275 - >> Accept: */*
+2019-08-08 18:53:57 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-08-08 18:53:57 DEBUG headers:275 - >> Content-Length: 164
+2019-08-08 18:53:57 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-08-08 18:53:57 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-08-08 18:53:57 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-08-08 18:53:57 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-08-08 18:53:57 DEBUG wire:86 -  >> "{"id":1,"username":"i2i","firstName":"Ivan","lastName":"Ivanov","email":"testUser1@gmail.com","password":"TopSecretPassword","phone":"+380694445522","userStatus":1}"
+2019-08-08 18:53:57 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  << "Date: Thu, 08 Aug 2019 15:53:57 GMT[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-08-08 18:53:57 DEBUG wire:72 -  << "[\r][\n]"
+2019-08-08 18:53:57 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 200 OK
+2019-08-08 18:53:57 DEBUG headers:256 - << HTTP/1.1 200 OK
+2019-08-08 18:53:57 DEBUG headers:259 - << Date: Thu, 08 Aug 2019 15:53:57 GMT
+2019-08-08 18:53:57 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-08-08 18:53:57 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-08-08 18:53:57 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-08-08 18:53:57 DEBUG headers:259 - << Content-Type: application/json
+2019-08-08 18:53:57 DEBUG headers:259 - << Connection: close
+2019-08-08 18:53:57 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-08-08 18:53:57 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-08-08 18:53:57 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-08 18:54:18 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-08-08 18:54:18 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-08-08 18:54:19 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-08-08 18:54:19 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-08-08 18:54:19 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-08-08 18:54:19 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-08-08 18:54:19 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-08-08 18:54:19 DEBUG DefaultClientConnection:268 - Sending request: POST /v2/user HTTP/1.1
+2019-08-08 18:54:19 DEBUG wire:72 -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  >> "Content-Length: 164[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  >> "[\r][\n]"
+2019-08-08 18:54:19 DEBUG headers:272 - >> POST /v2/user HTTP/1.1
+2019-08-08 18:54:19 DEBUG headers:275 - >> Accept: */*
+2019-08-08 18:54:19 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-08-08 18:54:19 DEBUG headers:275 - >> Content-Length: 164
+2019-08-08 18:54:19 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-08-08 18:54:19 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-08-08 18:54:19 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-08-08 18:54:19 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-08-08 18:54:19 DEBUG wire:86 -  >> "{"id":1,"username":"i2i","firstName":"Ivan","lastName":"Ivanov","email":"testUser1@gmail.com","password":"TopSecretPassword","phone":"+380694445522","userStatus":1}"
+2019-08-08 18:54:19 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  << "Date: Thu, 08 Aug 2019 15:54:19 GMT[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-08-08 18:54:19 DEBUG wire:72 -  << "[\r][\n]"
+2019-08-08 18:54:19 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 200 OK
+2019-08-08 18:54:19 DEBUG headers:256 - << HTTP/1.1 200 OK
+2019-08-08 18:54:19 DEBUG headers:259 - << Date: Thu, 08 Aug 2019 15:54:19 GMT
+2019-08-08 18:54:19 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-08-08 18:54:19 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-08-08 18:54:19 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-08-08 18:54:19 DEBUG headers:259 - << Content-Type: application/json
+2019-08-08 18:54:19 DEBUG headers:259 - << Connection: close
+2019-08-08 18:54:19 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-08-08 18:54:19 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-08-08 18:54:19 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-08 18:54:42 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-08-08 18:54:42 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-08-08 18:54:43 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-08-08 18:54:43 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-08-08 18:54:43 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-08-08 18:54:43 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-08-08 18:54:43 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-08-08 18:54:43 DEBUG DefaultClientConnection:268 - Sending request: POST /v2/user HTTP/1.1
+2019-08-08 18:54:43 DEBUG wire:72 -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  >> "Content-Length: 164[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  >> "[\r][\n]"
+2019-08-08 18:54:43 DEBUG headers:272 - >> POST /v2/user HTTP/1.1
+2019-08-08 18:54:43 DEBUG headers:275 - >> Accept: */*
+2019-08-08 18:54:43 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-08-08 18:54:43 DEBUG headers:275 - >> Content-Length: 164
+2019-08-08 18:54:43 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-08-08 18:54:43 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-08-08 18:54:43 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-08-08 18:54:43 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-08-08 18:54:43 DEBUG wire:86 -  >> "{"id":1,"username":"i2i","firstName":"Ivan","lastName":"Ivanov","email":"testUser1@gmail.com","password":"TopSecretPassword","phone":"+380694445522","userStatus":1}"
+2019-08-08 18:54:43 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  << "Date: Thu, 08 Aug 2019 15:54:43 GMT[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-08-08 18:54:43 DEBUG wire:72 -  << "[\r][\n]"
+2019-08-08 18:54:43 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 200 OK
+2019-08-08 18:54:43 DEBUG headers:256 - << HTTP/1.1 200 OK
+2019-08-08 18:54:43 DEBUG headers:259 - << Date: Thu, 08 Aug 2019 15:54:43 GMT
+2019-08-08 18:54:43 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-08-08 18:54:43 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-08-08 18:54:43 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-08-08 18:54:43 DEBUG headers:259 - << Content-Type: application/json
+2019-08-08 18:54:43 DEBUG headers:259 - << Connection: close
+2019-08-08 18:54:43 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-08-08 18:54:43 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-08-08 18:54:43 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-08 18:55:56 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-08-08 18:55:56 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-08-08 18:55:57 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-08-08 18:55:57 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-08-08 18:55:57 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-08-08 18:55:57 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-08-08 18:55:57 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-08-08 18:55:57 DEBUG DefaultClientConnection:268 - Sending request: POST /v2/user HTTP/1.1
+2019-08-08 18:55:57 DEBUG wire:72 -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  >> "Content-Length: 164[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  >> "[\r][\n]"
+2019-08-08 18:55:57 DEBUG headers:272 - >> POST /v2/user HTTP/1.1
+2019-08-08 18:55:57 DEBUG headers:275 - >> Accept: */*
+2019-08-08 18:55:57 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-08-08 18:55:57 DEBUG headers:275 - >> Content-Length: 164
+2019-08-08 18:55:57 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-08-08 18:55:57 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-08-08 18:55:57 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-08-08 18:55:57 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-08-08 18:55:57 DEBUG wire:86 -  >> "{"id":1,"username":"i2i","firstName":"Ivan","lastName":"Ivanov","email":"testUser1@gmail.com","password":"TopSecretPassword","phone":"+380694445522","userStatus":1}"
+2019-08-08 18:55:57 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  << "Date: Thu, 08 Aug 2019 15:55:57 GMT[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-08-08 18:55:57 DEBUG wire:72 -  << "[\r][\n]"
+2019-08-08 18:55:57 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 200 OK
+2019-08-08 18:55:57 DEBUG headers:256 - << HTTP/1.1 200 OK
+2019-08-08 18:55:57 DEBUG headers:259 - << Date: Thu, 08 Aug 2019 15:55:57 GMT
+2019-08-08 18:55:57 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-08-08 18:55:57 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-08-08 18:55:57 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-08-08 18:55:57 DEBUG headers:259 - << Content-Type: application/json
+2019-08-08 18:55:57 DEBUG headers:259 - << Connection: close
+2019-08-08 18:55:57 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-08-08 18:55:57 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-08-08 18:55:57 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-08-09 20:06:55 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-08-09 20:06:55 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-08-09 20:06:56 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-08-09 20:06:56 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-08-09 20:06:56 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-08-09 20:06:56 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-08-09 20:06:56 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-08-09 20:06:56 DEBUG DefaultClientConnection:268 - Sending request: POST /v2/user HTTP/1.1
+2019-08-09 20:06:56 DEBUG wire:72 -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  >> "Content-Length: 164[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  >> "[\r][\n]"
+2019-08-09 20:06:56 DEBUG headers:272 - >> POST /v2/user HTTP/1.1
+2019-08-09 20:06:56 DEBUG headers:275 - >> Accept: */*
+2019-08-09 20:06:56 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-08-09 20:06:56 DEBUG headers:275 - >> Content-Length: 164
+2019-08-09 20:06:56 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-08-09 20:06:56 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-08-09 20:06:56 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-08-09 20:06:56 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-08-09 20:06:56 DEBUG wire:86 -  >> "{"id":1,"username":"i2i","firstName":"Ivan","lastName":"Ivanov","email":"testUser1@gmail.com","password":"TopSecretPassword","phone":"+380694445522","userStatus":1}"
+2019-08-09 20:06:56 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  << "Date: Fri, 09 Aug 2019 17:06:57 GMT[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-08-09 20:06:56 DEBUG wire:72 -  << "[\r][\n]"
+2019-08-09 20:06:56 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 200 OK
+2019-08-09 20:06:56 DEBUG headers:256 - << HTTP/1.1 200 OK
+2019-08-09 20:06:56 DEBUG headers:259 - << Date: Fri, 09 Aug 2019 17:06:57 GMT
+2019-08-09 20:06:56 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-08-09 20:06:56 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-08-09 20:06:56 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-08-09 20:06:56 DEBUG headers:259 - << Content-Type: application/json
+2019-08-09 20:06:56 DEBUG headers:259 - << Connection: close
+2019-08-09 20:06:56 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-08-09 20:06:56 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-08-09 20:06:56 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-11-24 13:29:47 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-11-24 13:29:47 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-11-24 13:29:48 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-11-24 13:29:48 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-11-24 13:29:48 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-11-24 13:29:48 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-11-24 13:29:48 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-11-24 13:29:48 DEBUG DefaultClientConnection:268 - Sending request: POST /v2/user HTTP/1.1
+2019-11-24 13:29:48 DEBUG wire:72 -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  >> "Content-Length: 164[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  >> "[\r][\n]"
+2019-11-24 13:29:48 DEBUG headers:272 - >> POST /v2/user HTTP/1.1
+2019-11-24 13:29:48 DEBUG headers:275 - >> Accept: */*
+2019-11-24 13:29:48 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-11-24 13:29:48 DEBUG headers:275 - >> Content-Length: 164
+2019-11-24 13:29:48 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-11-24 13:29:48 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-11-24 13:29:48 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-11-24 13:29:48 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-11-24 13:29:48 DEBUG wire:86 -  >> "{"id":1,"username":"i2i","firstName":"Ivan","lastName":"Ivanov","email":"testUser1@gmail.com","password":"TopSecretPassword","phone":"+380694445522","userStatus":1}"
+2019-11-24 13:29:48 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  << "Date: Sun, 24 Nov 2019 11:29:51 GMT[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-11-24 13:29:48 DEBUG wire:72 -  << "[\r][\n]"
+2019-11-24 13:29:48 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 200 OK
+2019-11-24 13:29:48 DEBUG headers:256 - << HTTP/1.1 200 OK
+2019-11-24 13:29:48 DEBUG headers:259 - << Date: Sun, 24 Nov 2019 11:29:51 GMT
+2019-11-24 13:29:48 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-11-24 13:29:48 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-11-24 13:29:48 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-11-24 13:29:48 DEBUG headers:259 - << Content-Type: application/json
+2019-11-24 13:29:48 DEBUG headers:259 - << Connection: close
+2019-11-24 13:29:48 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-11-24 13:29:48 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-11-24 13:29:48 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-11-24 13:30:26 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-11-24 13:30:26 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-11-24 13:30:27 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-11-24 13:30:27 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-11-24 13:30:27 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-11-24 13:30:27 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-11-24 13:30:27 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-11-24 13:30:27 DEBUG DefaultClientConnection:268 - Sending request: POST /v2/user HTTP/1.1
+2019-11-24 13:30:27 DEBUG wire:72 -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  >> "Content-Length: 164[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  >> "[\r][\n]"
+2019-11-24 13:30:27 DEBUG headers:272 - >> POST /v2/user HTTP/1.1
+2019-11-24 13:30:27 DEBUG headers:275 - >> Accept: */*
+2019-11-24 13:30:27 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-11-24 13:30:27 DEBUG headers:275 - >> Content-Length: 164
+2019-11-24 13:30:27 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-11-24 13:30:27 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-11-24 13:30:27 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-11-24 13:30:27 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-11-24 13:30:27 DEBUG wire:86 -  >> "{"id":1,"username":"i2i","firstName":"Ivan","lastName":"Ivanov","email":"testUser1@gmail.com","password":"TopSecretPassword","phone":"+380694445522","userStatus":1}"
+2019-11-24 13:30:27 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  << "Date: Sun, 24 Nov 2019 11:30:30 GMT[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-11-24 13:30:27 DEBUG wire:72 -  << "[\r][\n]"
+2019-11-24 13:30:27 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 200 OK
+2019-11-24 13:30:27 DEBUG headers:256 - << HTTP/1.1 200 OK
+2019-11-24 13:30:27 DEBUG headers:259 - << Date: Sun, 24 Nov 2019 11:30:30 GMT
+2019-11-24 13:30:27 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-11-24 13:30:27 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-11-24 13:30:27 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-11-24 13:30:27 DEBUG headers:259 - << Content-Type: application/json
+2019-11-24 13:30:27 DEBUG headers:259 - << Connection: close
+2019-11-24 13:30:27 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-11-24 13:30:27 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-11-24 13:30:27 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-11-24 13:30:27 DEBUG BasicClientConnectionManager:198 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7fd4acee
+2019-11-24 13:30:27 DEBUG DefaultClientConnection:160 - Connection 0.0.0.0:58237<->23.22.16.221:443 shut down
+2019-11-24 13:30:27 INFO  Log:36 - 
+2019-11-24 13:31:13 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-11-24 13:31:13 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-11-24 13:31:14 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-11-24 13:31:14 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-11-24 13:31:14 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-11-24 13:31:14 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-11-24 13:31:14 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-11-24 13:31:14 DEBUG DefaultClientConnection:268 - Sending request: POST /v2/user HTTP/1.1
+2019-11-24 13:31:14 DEBUG wire:72 -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  >> "Content-Length: 164[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  >> "[\r][\n]"
+2019-11-24 13:31:14 DEBUG headers:272 - >> POST /v2/user HTTP/1.1
+2019-11-24 13:31:14 DEBUG headers:275 - >> Accept: */*
+2019-11-24 13:31:14 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-11-24 13:31:14 DEBUG headers:275 - >> Content-Length: 164
+2019-11-24 13:31:14 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-11-24 13:31:14 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-11-24 13:31:14 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-11-24 13:31:14 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-11-24 13:31:14 DEBUG wire:86 -  >> "{"id":1,"username":"i2i","firstName":"Ivan","lastName":"Ivanov","email":"testUser1@gmail.com","password":"TopSecretPassword","phone":"+380694445522","userStatus":1}"
+2019-11-24 13:31:14 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  << "Date: Sun, 24 Nov 2019 11:31:16 GMT[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-11-24 13:31:14 DEBUG wire:72 -  << "[\r][\n]"
+2019-11-24 13:31:14 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 200 OK
+2019-11-24 13:31:14 DEBUG headers:256 - << HTTP/1.1 200 OK
+2019-11-24 13:31:14 DEBUG headers:259 - << Date: Sun, 24 Nov 2019 11:31:16 GMT
+2019-11-24 13:31:14 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-11-24 13:31:14 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-11-24 13:31:14 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-11-24 13:31:14 DEBUG headers:259 - << Content-Type: application/json
+2019-11-24 13:31:14 DEBUG headers:259 - << Connection: close
+2019-11-24 13:31:14 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-11-24 13:31:14 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-11-24 13:31:14 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-11-24 13:31:14 DEBUG BasicClientConnectionManager:198 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5dbe30be
+2019-11-24 13:31:14 DEBUG DefaultClientConnection:160 - Connection 0.0.0.0:58241<->23.22.16.221:443 shut down
+2019-11-24 13:31:14 INFO  Log:36 - 
+2019-11-24 13:31:14 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-11-24 13:31:14 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-11-24 13:31:15 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-11-24 13:31:15 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-11-24 13:31:15 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-11-24 13:31:15 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-11-24 13:31:15 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-11-24 13:31:15 DEBUG DefaultClientConnection:268 - Sending request: GET /v2/user/i2i HTTP/1.1
+2019-11-24 13:31:15 DEBUG wire:72 -  >> "GET /v2/user/i2i HTTP/1.1[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  >> "Accept: application/json, application/javascript, text/javascript[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  >> "Content-Length: 0[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  >> "[\r][\n]"
+2019-11-24 13:31:15 DEBUG headers:272 - >> GET /v2/user/i2i HTTP/1.1
+2019-11-24 13:31:15 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-11-24 13:31:15 DEBUG headers:275 - >> Accept: application/json, application/javascript, text/javascript
+2019-11-24 13:31:15 DEBUG headers:275 - >> Content-Length: 0
+2019-11-24 13:31:15 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-11-24 13:31:15 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-11-24 13:31:15 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-11-24 13:31:15 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-11-24 13:31:15 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  << "Date: Sun, 24 Nov 2019 11:31:17 GMT[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-11-24 13:31:15 DEBUG wire:72 -  << "[\r][\n]"
+2019-11-24 13:31:15 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 200 OK
+2019-11-24 13:31:15 DEBUG headers:256 - << HTTP/1.1 200 OK
+2019-11-24 13:31:15 DEBUG headers:259 - << Date: Sun, 24 Nov 2019 11:31:17 GMT
+2019-11-24 13:31:15 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-11-24 13:31:15 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-11-24 13:31:15 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-11-24 13:31:15 DEBUG headers:259 - << Content-Type: application/json
+2019-11-24 13:31:15 DEBUG headers:259 - << Connection: close
+2019-11-24 13:31:15 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-11-24 13:31:15 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-11-24 13:31:15 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-11-24 13:31:15 DEBUG wire:86 -  << "{"id":1,"username":"i2i","firstName":"Ivan","lastName":"Ivanov","email":"testUser1@gmail.com","password":"TopSecretPassword","phone":"+380694445522","userStatus":1}"
+2019-11-24 13:31:15 DEBUG BasicClientConnectionManager:198 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@544630b7
+2019-11-24 13:31:15 DEBUG DefaultClientConnection:160 - Connection 0.0.0.0:58242<->23.22.16.221:443 shut down
+2019-11-24 13:31:15 INFO  Log:62 - com.jayway.restassured.internal.RestAssuredResponseImpl@5b800468
+2019-11-24 13:33:00 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-11-24 13:33:00 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-11-24 13:33:01 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-11-24 13:33:01 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-11-24 13:33:01 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-11-24 13:33:01 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-11-24 13:33:01 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-11-24 13:33:01 DEBUG DefaultClientConnection:268 - Sending request: POST /v2/user HTTP/1.1
+2019-11-24 13:33:01 DEBUG wire:72 -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  >> "Content-Length: 164[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  >> "[\r][\n]"
+2019-11-24 13:33:01 DEBUG headers:272 - >> POST /v2/user HTTP/1.1
+2019-11-24 13:33:01 DEBUG headers:275 - >> Accept: */*
+2019-11-24 13:33:01 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-11-24 13:33:01 DEBUG headers:275 - >> Content-Length: 164
+2019-11-24 13:33:01 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-11-24 13:33:01 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-11-24 13:33:01 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-11-24 13:33:01 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-11-24 13:33:01 DEBUG wire:86 -  >> "{"id":1,"username":"i2i","firstName":"Ivan","lastName":"Ivanov","email":"testUser1@gmail.com","password":"TopSecretPassword","phone":"+380694445522","userStatus":1}"
+2019-11-24 13:33:01 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  << "Date: Sun, 24 Nov 2019 11:33:03 GMT[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-11-24 13:33:01 DEBUG wire:72 -  << "[\r][\n]"
+2019-11-24 13:33:01 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 200 OK
+2019-11-24 13:33:01 DEBUG headers:256 - << HTTP/1.1 200 OK
+2019-11-24 13:33:01 DEBUG headers:259 - << Date: Sun, 24 Nov 2019 11:33:03 GMT
+2019-11-24 13:33:01 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-11-24 13:33:01 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-11-24 13:33:01 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-11-24 13:33:01 DEBUG headers:259 - << Content-Type: application/json
+2019-11-24 13:33:01 DEBUG headers:259 - << Connection: close
+2019-11-24 13:33:01 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-11-24 13:33:01 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-11-24 13:33:01 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2019-11-24 13:36:29 DEBUG BasicClientConnectionManager:160 - Get connection for route {s}->https://petstore.swagger.io:443
+2019-11-24 13:36:29 DEBUG DefaultClientConnectionOperator:174 - Connecting to petstore.swagger.io:443
+2019-11-24 13:36:30 DEBUG RequestAddCookies:122 - CookieSpec selected: ignoreCookies
+2019-11-24 13:36:30 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2019-11-24 13:36:30 DEBUG RequestTargetAuthentication:78 - Target auth state: UNCHALLENGED
+2019-11-24 13:36:30 DEBUG RequestProxyAuthentication:87 - Proxy auth state: UNCHALLENGED
+2019-11-24 13:36:30 DEBUG DefaultHttpClient:683 - Attempt 1 to execute request
+2019-11-24 13:36:30 DEBUG DefaultClientConnection:268 - Sending request: POST /v2/user HTTP/1.1
+2019-11-24 13:36:30 DEBUG wire:72 -  >> "POST /v2/user HTTP/1.1[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  >> "Accept: */*[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  >> "Content-Length: 164[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  >> "Host: petstore.swagger.io[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  >> "Connection: Keep-Alive[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  >> "User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  >> "[\r][\n]"
+2019-11-24 13:36:30 DEBUG headers:272 - >> POST /v2/user HTTP/1.1
+2019-11-24 13:36:30 DEBUG headers:275 - >> Accept: */*
+2019-11-24 13:36:30 DEBUG headers:275 - >> Content-Type: application/json; charset=UTF-8
+2019-11-24 13:36:30 DEBUG headers:275 - >> Content-Length: 164
+2019-11-24 13:36:30 DEBUG headers:275 - >> Host: petstore.swagger.io
+2019-11-24 13:36:30 DEBUG headers:275 - >> Connection: Keep-Alive
+2019-11-24 13:36:30 DEBUG headers:275 - >> User-Agent: Apache-HttpClient/4.5.1 (Java/1.8.0_191)
+2019-11-24 13:36:30 DEBUG headers:275 - >> Accept-Encoding: gzip,deflate
+2019-11-24 13:36:30 DEBUG wire:86 -  >> "{"id":1,"username":"i2i","firstName":"Ivan","lastName":"Ivanov","email":"testUser1@gmail.com","password":"TopSecretPassword","phone":"+380694445522","userStatus":1}"
+2019-11-24 13:36:30 DEBUG wire:72 -  << "HTTP/1.1 200 OK[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  << "Date: Sun, 24 Nov 2019 11:36:32 GMT[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  << "Access-Control-Allow-Methods: GET, POST, DELETE, PUT[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  << "Access-Control-Allow-Headers: Content-Type, api_key, Authorization[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  << "Content-Type: application/json[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  << "Connection: close[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  << "Server: Jetty(9.2.9.v20150224)[\r][\n]"
+2019-11-24 13:36:30 DEBUG wire:72 -  << "[\r][\n]"
+2019-11-24 13:36:30 DEBUG DefaultClientConnection:253 - Receiving response: HTTP/1.1 200 OK
+2019-11-24 13:36:30 DEBUG headers:256 - << HTTP/1.1 200 OK
+2019-11-24 13:36:30 DEBUG headers:259 - << Date: Sun, 24 Nov 2019 11:36:32 GMT
+2019-11-24 13:36:30 DEBUG headers:259 - << Access-Control-Allow-Origin: *
+2019-11-24 13:36:30 DEBUG headers:259 - << Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+2019-11-24 13:36:30 DEBUG headers:259 - << Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+2019-11-24 13:36:30 DEBUG headers:259 - << Content-Type: application/json
+2019-11-24 13:36:30 DEBUG headers:259 - << Connection: close
+2019-11-24 13:36:30 DEBUG headers:259 - << Server: Jetty(9.2.9.v20150224)
+2019-11-24 13:36:30 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:543 - Parsing response as: application/json
+2019-11-24 13:36:30 DEBUG RequestSpecificationImpl$RestAssuredHttpBuilder:546 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
